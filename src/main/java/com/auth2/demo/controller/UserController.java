@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class UserController {
 
     @RequestMapping("/")
-    public String first(){
+    public String firstMeth(){
         return "hello";
     }
 
